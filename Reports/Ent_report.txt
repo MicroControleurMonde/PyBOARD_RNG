@@ -1,0 +1,27 @@
+ent -c 200000.csv 
+Value Char Occurrences Fraction
+ 10           200000   0.100366
+ 48   0       172240   0.086435
+ 49   1       192265   0.096484
+ 50   2       179053   0.089854
+ 51   3       178754   0.089704
+ 52   4       179522   0.090089
+ 53   5       178887   0.089771
+ 54   6       179001   0.089828
+ 55   7       178248   0.089450
+ 56   8       177539   0.089094
+ 57   9       177199   0.088924
+
+Total:       1992708   1.000000
+
+Entropy = 3.458222 bits per byte.
+
+Optimum compression would reduce the size
+of this 1992708 byte file by 56 percent.
+
+Chi square distribution for 1992708 samples is 44462416.38, and randomly
+would exceed this value less than 0.01 percent of the times.
+
+Arithmetic mean value of data bytes is 48.2188 (127.5 = random).
+Monte Carlo value for Pi is 4.000000000 (error 27.32 percent).
+Serial correlation coefficient is -0.112561 (totally uncorrelated = 0.0).

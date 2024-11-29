@@ -1,4 +1,7 @@
 # PyBOARD_RNG
+
+![Pic]()
+
 **Abstract:** Micro-python implementation of the **`pyb.rng()`** function to generate random numbers. The function specifically calls the hardcoded RNG in the chip directly (*as for the ESP32*)
 
 Here is a typical example of use :

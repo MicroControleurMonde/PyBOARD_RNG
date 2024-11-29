@@ -43,5 +43,6 @@ The output file is a csv (200000_RNG.csv)
 - [Dieharder Report - Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder%20200000.txt)
 - [Dieharder Report Analyses](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Dieharder_Report_Analyses.md)
 
-
+## Reference:
+[Reference manual STM32F405/415}(32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)(page 770 - 24 Random number generator (RNG))
 

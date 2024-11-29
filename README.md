@@ -11,3 +11,9 @@ Here is a typical example of use :
     print(random_number)
     
 Output: 112922794
+
+## Performance:
+
+## Ent Test Report:
+
+## Dieharder Test Report

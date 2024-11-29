@@ -4,8 +4,7 @@
 
 - The value "10" appears 200,000 times, which represents 10.0366% of the total occurrences.
 - The other values, from 48 (character '0') to 57 (character '9'), show a relatively uniform distribution, with frequencies ranging from 8.64% to 9.01%.
-
-This indicates a fairly uniform distribution of characters, although the value "10" has a slightly higher frequency.
+- This indicates a fairly uniform distribution of characters, although the value "10" has a slightly higher frequency.
 
 **B. Entropy**
 

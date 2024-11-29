@@ -41,7 +41,7 @@ The output file is a csv (200000_RNG.csv)
 - Sample size: **2 MB**
 - Total generated: **200'000 values**
 - [Dieharder Report - Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder%20200000.txt)
-- Dieharder Report Analyses
+- [Dieharder Report Analyses](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Dieharder_Report_Analyses.md)
 
 
 

@@ -32,7 +32,7 @@ The output file is a csv (200000_RNG.csv)
 - Sample size: **2 MB**
 - Total generated: **200'000 values**
 - [Ent Report -Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_report.txt)
-- Ent Report Analyse
+- [Ent Report Analyse](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_Report_Analyse.md)
 
 ## Dieharder Test Report
 

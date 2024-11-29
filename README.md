@@ -10,9 +10,13 @@ Here is a typical example of use :
     random_number = pyb.rng()  # Returns a 32-bit random number
     print(random_number)
     
-Output: 112922794
+    Output: 112922794
 
 ## Performance:
+
+- Time spent to generate 200'000 values: 108 seconds (avg)
+- Throughput: 7,407 bytes/sec
+- 1847 random values / sec.
 
 ## Ent Test Report:
 

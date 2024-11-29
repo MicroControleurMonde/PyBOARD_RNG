@@ -22,6 +22,8 @@ The output file is a csv (200000_RNG.csv)
 ### Note:
 Unlike the ESP32 board, I did not rewrite the RNG module which is perfectly functional natively for the Pyboard board in micropython.
 
+The goal here is more to test the performance and RNG capabilities of the MCU than to code anything.
+
 ## Performance:
 
 - Time spent to generate 200'000 values: 108 seconds (avg)

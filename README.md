@@ -2,7 +2,9 @@
 
 ![pic](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/MicroPython.jpg)
 
-**Abstract:** Micro-python implementation of the **`pyb.rng()`** function to generate random numbers. The function specifically calls the hardcoded RNG in the chip directly (*as for the ESP32*)
+**Abstract:** Micro-python implementation of the **`pyb.rng()`** function to generate random numbers. 
+
+The function specifically calls the hardcoded RNG in the chip directly (*as for the ESP32*)
 
 ## Generator coding:
 
@@ -25,4 +27,21 @@ The output file is a csv (200000_RNG.csv)
 
 ## Ent Test Report:
 
+(www.fourmilab.ch) John Walker
+
+- Sample size: **2 MB**
+- Total generated: **200'000 values**
+- [Ent Report -Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_report.txt)
+- Ent Report Analyse
+
 ## Dieharder Test Report
+
+(https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
+
+- Sample size: **2 MB**
+- Total generated: **200'000 values**
+- [Dieharder Report - Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder%20200000.txt)
+- Dieharder Report Analyses
+
+
+

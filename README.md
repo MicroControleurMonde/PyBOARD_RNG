@@ -45,8 +45,8 @@ The goal here is more to test the performance and RNG capabilities of the MCU th
 
 - Sample size: **19,9 MB**
 - Total generated: **2'000'000 values**
-- [Dieharder Report - Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder%20200000.txt)
-- [Dieharder Report Analyses](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Dieharder_Report_Analyses.md)
+- [Dieharder Report - Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder_2.000.000_RNG.txt)
+- [Dieharder Report Analyses](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder_2.000.000_RNG%20analysis.md)
 
 ## Reference:
 [Reference manual STM32F405/415](https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf) (page 770 - 24 Random number generator)

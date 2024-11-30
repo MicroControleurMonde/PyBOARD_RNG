@@ -1,0 +1,39 @@
+ent -c 2.000.000_RNG.txt 
+Value Char Occurrences Fraction
+ 10          2000001   0.100345
+ 32                1   0.000000
+ 48   0      1720483   0.086321
+ 49   1      1932367   0.096951
+ 50   2      1793845   0.090001
+ 51   3      1791716   0.089895
+ 52   4      1791959   0.089907
+ 53   5      1790712   0.089844
+ 54   6      1789958   0.089806
+ 55   7      1778551   0.089234
+ 56   8      1770332   0.088822
+ 57   9      1771352   0.088873
+ 78   N            1   0.000000
+ 97   a            2   0.000000
+ 98   b            1   0.000000
+101   e            3   0.000000
+105   i            1   0.000000
+108   l            1   0.000000
+109   m            1   0.000000
+111   o            2   0.000000
+114   r            2   0.000000
+116   t            1   0.000000
+
+Total:      19931292   1.000000
+
+Entropy = 3.458180 bits per byte.
+
+Optimum compression would reduce the size
+of this 19931292 byte file by 56 percent.
+
+Chi square distribution for 19931292 samples is 444755746.12, and randomly
+would exceed this value less than 0.01 percent of the times.
+
+Arithmetic mean value of data bytes is 48.2163 (127.5 = random).
+Monte Carlo value for Pi is 4.000000000 (error 27.32 percent).
+Serial correlation coefficient is -0.112440 (totally uncorrelated = 0.0).
+

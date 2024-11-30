@@ -53,16 +53,18 @@ The goal here is more to test the performance and RNG capabilities of the MCU th
 
 Doc. excerpt:
 
-        The RNG processor is a random number generator, based on continuous analogue noise, which provides a 32-bit random 
-        value to the host when read.
+        The RNG processor is a random number generator, based on continuous analogue noise, 
+        which provides a 32-bit random value to the host when read.
         The RNG passed the FIPS PUB 140-2 tests (10 October 2001) with a pass rate of 99%.
 
-        The analogue circuit consists of several ring oscillators whose outputs are combined by XOR to generate the seeds. 
-        The RNG_LFSR is clocked by a dedicated clock (RNG_CLK) at a constant frequency, so that the quality of the random 
-        number is independent of the HCLK frequency.
-        The contents of the RNG_LFSR are transferred to the data register (RNG_DR) when a significant number of seeds have
-        been entered into the RNG_LFSR.
-        In parallel, the analogue seed and the dedicated RNG_CLK clock are monitored. Status bits (in the RNG_SR register) 
-        indicate when an abnormal sequence occurs on the seed or when the RNG_CLK clock frequency is too low. 
+        The analogue circuit consists of several ring oscillators whose outputs are combined
+        by XOR to generate the seeds. 
+        The RNG_LFSR is clocked by a dedicated clock (RNG_CLK) at a constant frequency, 
+        so that the quality of the random number is independent of the HCLK frequency.
+        The contents of the RNG_LFSR are transferred to the data register (RNG_DR) when 
+        a significant number of seeds have been entered into the RNG_LFSR.
+        In parallel, the analogue seed and the dedicated RNG_CLK clock are monitored. 
+        Status bits (in the RNG_SR register) indicate when an abnormal sequence occurs 
+        on the seed or when the RNG_CLK clock frequency is too low. 
         An interrupt can be generated when an error is detected.
 

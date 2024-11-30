@@ -34,17 +34,17 @@ The goal here is more to test the performance and RNG capabilities of the MCU th
 
 (www.fourmilab.ch) John Walker
 
-- Sample size: **2 MB**
-- Total generated: **200'000 values**
-- [Ent Report -Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_report.txt)
-- [Ent Report Analyse](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_Report_Analyse.md)
+- Sample size: **19,9 MB**
+- Total generated: **2'000'000 values**
+- [Ent Report -Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_Report_2.000.000_RNG.txt)
+- [Ent Report Analyse](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_2.000.000_Report_Analyse.md)
 
 ## Dieharder Test Report
 
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
 
-- Sample size: **2 MB**
-- Total generated: **200'000 values**
+- Sample size: **19,9 MB**
+- Total generated: **2'000'000 values**
 - [Dieharder Report - Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder%20200000.txt)
 - [Dieharder Report Analyses](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Dieharder_Report_Analyses.md)
 

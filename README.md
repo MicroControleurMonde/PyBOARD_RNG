@@ -2,7 +2,7 @@
 
 ![pic](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/MicroPython.jpg)
 
-**Abstract:** Micro-python implementation of the **`pyb.rng()`** function to generate random numbers FOR TESTING PURPOSES. 
+**Abstract:** Micro-python implementation of the **`pyb.rng()`** function to generate random numbers **FOR TESTING PURPOSES**. 
 
 The function specifically calls the hardcoded RNG in the chip directly (*as for the ESP32*)
 

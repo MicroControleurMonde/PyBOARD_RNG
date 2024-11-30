@@ -68,3 +68,8 @@ Doc. excerpt:
         on the seed or when the RNG_CLK clock frequency is too low. 
         An interrupt can be generated when an error is detected.
 
+### Comment:
+
+For STM32F4xx microcontrollers, the manual indicates that these devices are intended for use in functional safety applications. However, it doesn't provide specific details about the results of the FIPS 140-2 tests. I couldn't find any specific results related to on the NIST website. Since this standard was released back in 2001, the associated documentation could be found in a large collection on the NIST website / archives. 
+That being said, it's worth noting that STMicroelectronics has currently many other MCU models that are FIPS certified.
+

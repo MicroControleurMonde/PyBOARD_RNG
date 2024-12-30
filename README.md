@@ -32,7 +32,7 @@ The goal here is more to test the performance and RNG capabilities of the MCU th
 
 ## Ent/DJent Test Report:
 
-(www.fourmilab.ch) John Walker and [David Johnston](github.com/dj-on-github/djent)
+(www.fourmilab.ch) John Walker and [David Johnston](https://github.com/dj-on-github/djent)
 ##### Max possible enropy = 1   
 -    Min Entropy (by max occurrence of symbol 0) = 0.912487
 -    Shannon IID Entropy = **0.997177** bits per symbol

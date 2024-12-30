@@ -30,12 +30,15 @@ The goal here is more to test the performance and RNG capabilities of the MCU th
 - Throughput: **7,407 bytes/sec**
 - **1847** random values / sec.
 
-## Ent Test Report:
+## Ent/DJent Test Report:
 
-(www.fourmilab.ch) John Walker
+(www.fourmilab.ch) John Walker and [David Johnston](github.com/dj-on-github/djent)
+##### Max possible enropy = 1   
+-    Min Entropy (by max occurrence of symbol 0) = 0.912487
+-    Shannon IID Entropy = **0.997177** bits per symbol
 
-- Sample size: **19,9 MB**
-- Total generated: **2'000'000 values**
+- Sample size: **53.4 MB**
+- Total generated: **13'336'713 values**
 - [Ent Report -Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_Report_2.000.000_RNG.txt)
 - [Ent Report Analyse](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_2.000.000_Report_Analyse.md)
 
@@ -43,8 +46,8 @@ The goal here is more to test the performance and RNG capabilities of the MCU th
 
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
 
-- Sample size: **19,9 MB**
-- Total generated: **2'000'000 values**
+- Sample size: **53.4 MB**
+- Total generated: **13'336'713  values**
 - [Dieharder Report - Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder_2.000.000_RNG.txt)
 - [Dieharder Report Analyses](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder_2.000.000_RNG%20analysis.md)
 

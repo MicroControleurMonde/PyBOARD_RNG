@@ -1,0 +1,18 @@
+djent -b 13_340_000_RNG.bin
+ 
+ opening 13_340_000_RNG.bin as binary
+ Symbol Size(bits) = 1
+   Min Entropy (by max occurrence of symbol 0) = 0.912487
+   Analysing 426880136 1-bit symbols
+   Shannon IID Entropy = 0.997177 bits per symbol
+   Optimal compression would compress by 0.282292 percent
+   Chi square: symbol count=426880137, distribution=1669459.66, randomly exceeds 0.00 percent of the time
+   Mean = 0.468732
+   Monte Carlo value for Pi is 3.552569 (error 13.08 percent).
+   Serial Correlation = 0.027452
+   Longest Run Symbol = 0. Run Length = 31
+   Probabilty of longest run being <= 31 = 0.905389
+   Position of Longest Run = 7597082 (0x73ec1a). Byte position 949635 (0xe7d83)
+   A 2 state Markov generator with transition probabilities P01=0.455864, P10=0.516684 would generate data with 
+   the same mean and serial correlation
+

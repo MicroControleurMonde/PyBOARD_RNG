@@ -38,7 +38,7 @@ The goal here is more to test the performance and RNG capabilities of the MCU th
 - Sample size: **53.4 MB**
 - Total generated: **13'336'713 values**
 - [Ent Report -Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Pyb_RNG_Test_13Mi_djent.txt)
-- [Ent Report Analyse](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_2.000.000_Report_Analyse.md)
+- [Ent Report Analyse]***To be updated***
 
 ## Dieharder Test Report
 
@@ -46,8 +46,8 @@ The goal here is more to test the performance and RNG capabilities of the MCU th
 
 - Sample size: **53.4 MB**
 - Total generated: **13'336'713  values**
-- [Dieharder Report - Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder_2.000.000_RNG.txt)
-- [Dieharder Report Analyses](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/dieharder_2.000.000_RNG%20analysis.md)
+- [Dieharder Report - Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Pyb_RNG_Test_13Mi_dieharder.txt)
+- [Dieharder Report Analyses] ***To be updated***
 
 ## Reference:
 [Reference manual STM32F405/415](https://www.st.com/resource/en/reference_manual/rm0090-stm32f405415-stm32f407417-stm32f427437-and-stm32f429439-advanced-armbased-32bit-mcus-stmicroelectronics.pdf) (page 770 - 24 Random number generator)
@@ -72,6 +72,8 @@ Doc. excerpt:
 ### Comment:
 
 For STM32F4xx microcontrollers, the manual indicates that these devices are intended for use in functional safety applications. However, it doesn't provide specific details about the results of the FIPS 140-2 tests. I couldn't find any specific results related to on the NIST website. Since this standard was released back in 2001, the associated documentation could be found in a large collection on the NIST website / archives.
+
+Here is the output of the Debian **`rngtest`** which implements the FIPS 140-2 tests: [Output](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Pyb_RNG_Test_13Mi_rngtest.txt)
 
 That being said, it's worth noting that STMicroelectronics has currently many other MCU models that are FIPS certified.
 

@@ -17,8 +17,6 @@ Here is a typical example of use :
     Output: 112922794
 I made a very basic code that makes 200'000 calls to the 'pyb.rng()' function. Here: [pyboard_rng.py](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/pyboard_rng.py)
 
-The output file is a csv (200000_RNG.csv)
-
 ### Note:
 Unlike the ESP32 board, **I did not rewrite the RNG module** which is perfectly functional natively for the Pyboard board in micropython.
 
@@ -39,7 +37,7 @@ The goal here is more to test the performance and RNG capabilities of the MCU th
 
 - Sample size: **53.4 MB**
 - Total generated: **13'336'713 values**
-- [Ent Report -Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_Report_2.000.000_RNG.txt)
+- [Ent Report -Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Pyb_RNG_Test_13Mi_djent.txt)
 - [Ent Report Analyse](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Ent_2.000.000_Report_Analyse.md)
 
 ## Dieharder Test Report

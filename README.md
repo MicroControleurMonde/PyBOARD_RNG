@@ -40,6 +40,11 @@ The goal here is more to test the performance and RNG capabilities of the MCU th
 - [Ent Report -Raw](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/Pyb_RNG_Test_13Mi_djent.txt)
 - [Ent Report Analyse]***To be updated***
 
+## CACert Report:
+
+![pic](https://github.com/MicroControleurMonde/PyBOARD_RNG/blob/main/Reports/CACert_Pyb_RNG_Test_13Mil.png)
+
+
 ## Dieharder Test Report
 
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
